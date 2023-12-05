@@ -1,5 +1,6 @@
 package com.macedovingithub.sacolaApi.service.impl;
 
+import com.macedovingithub.sacolaApi.enumeration.FormaPagamento;
 import com.macedovingithub.sacolaApi.model.Item;
 import com.macedovingithub.sacolaApi.model.Sacola;
 import com.macedovingithub.sacolaApi.repository.IItemRepository;
@@ -31,7 +32,18 @@ public class SacolaSerivceImpl implements ISacolaService {
 
     @Override
     public Sacola fecharSacola(Long id, int formaDePagamento) {
-        return null;
+        Sacola sacola = verSacola(id);
+
+        if (sacola.getItens().isEmpty()) {
+            throw new RuntimeException("Inclua itens na sacola!");
+        }
+
+        FormaPagamento formaPagamento = formaDePagamento == 0 ? FormaPagamento.DINHEIRO : FormaPagamento.MAQUINETA;
+
+        sacola.setFormaPagamento(formaPagamento);
+        sacola.setFechada(true);
+
+        return sacolaRepository.save(sacola);
     }
 
     @Override
