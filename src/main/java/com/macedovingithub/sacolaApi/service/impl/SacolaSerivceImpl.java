@@ -108,6 +108,6 @@ public class SacolaSerivceImpl implements ISacolaService {
 
         sacolaRepository.save(sacola);
 
-        return itemRerpository.save(itemParaSerInserido);
+        return itemParaSerInserido;
     }
 }
