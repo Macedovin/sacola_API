@@ -16,8 +16,8 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <!-- <a href="#learnings">Learnings</a> •
-  <a href="#preview">Preview</a> • -->
+  <a href="#learnings">Learnings</a> •
+  <a href="#preview">Preview</a> •
   <a href="#tech-stack-and-tools">Tech Stack and tools</a> •
   <a href="#publication">Publication</a> •
   <a href="#author">Author</a> 
@@ -27,7 +27,85 @@
 
 ## About
 <br/>
-<!--Project developed as a result of the teachings learned at Mergulho Java, 2023, an Alga Works event.-->
+Project developed as a FREE starter for a DIO's Bootcamp wich I didn't do.
+
+A Backend API made using **Java**, **Spring Boot**, **Gradle**, **Hibernate - Jakarta Persistense (JPA)**, **H2 in-memory Database**, and documented using **Swagger UI**, that will allow you to add itens, see and close the bag preparing for order.
+
+**ATTENTION** ⚠️:
+
+> Because it is a in-memory Database, data will not persist on disk and will be lost whenever the application is refreshed.
+
+## Learnings
+<br/>
+<br/>
+
+  - Basic understanding of:
+    - Operational Systems;
+    - Java programming language;
+    - IntelliJ IDEA Community;
+    - Git and GitHub;
+  
+  <details open>
+  <summary>Object Oriented Programming -> OOP:</summary>
+  <br/>
+
+  - Abstraction;
+  - Encapsulation;
+  - Inheritance;
+  - Composition;
+  - Polymorphism;
+  - Instances - Classes X Objects;
+  
+  </details>
+
+  <details open>
+  <summary>Computational thinking:</summary>
+  <br/>
+
+  - What the problems are and how the application solves them;
+
+  </details>
+
+  <details open>
+  <summary>Application domain:</summary>
+  <br/>
+
+  - Understanding the project;
+
+  </details>
+
+  <details open>
+  <summary>Entity-relantionship Diagram:</summary>
+
+  <h1 align="center">
+    <img src="./README-assets/application_entity-relationship_diagram.png" width="850" alt="Application entity-relationship diagram">
+  </h1>
+
+  </details>
+
+  - REST APIs;
+  - HTTP verbs;
+
+  <details open>
+  <summary>Spring Boot Application architecture;:</summary>
+  <br/>
+
+  - Spring Initialzr;
+  - Lombok;
+  - H2 in memory Database;
+  - Builder Design pattern;
+
+  </details>
+  
+  - Postman;
+  - Swagger UI;
+
+
+## Preview
+
+<h1 align="center">
+	<img src="./README-assets/sacola_API-swagger.gif" width="850" alt="Macedovin RH_API usage">
+</h1>
 
 ## Tech Stack and tools
 
@@ -59,22 +137,22 @@
   ```bash
   cd sacola_API
   ```
-- If you haven't installed Maven on your Machine, then use the following Maven command to run the Spring Boot application:
+- If you haven't installed Gradle on your Machine, then use the following Gradle command to run the Spring Boot application:
 
   ```bash
   ./gradlew bootrun
   ```
-- With the application running, at your browser of choice, acces the URL bellow:
+- With the application running, at your browser of choice, access this URL:
 
   - Copy it from here and paste there:
-  
-  ```bash
-  http://localhost:8080/swagger-ui/
-  ```
-  - Or, click this link: 
 
-  > http://localhost:8080/swagger-ui/
+      ```bash
+      http://localhost:8080/swagger-ui/
+      ```
+  - Or, click this link:
 
+    > http://localhost:8080/swagger-ui/
+    
 🚨  **ATTENTION** ⚠️:
 
 > Because it is a in-memory Database, data will not persist on disk and will be lost whenever the application is refreshed.
@@ -84,7 +162,7 @@
 <br/>
 <img align="left" src="https://avatars.githubusercontent.com/Macedovin?size=100" alt="Foto de Macedovin">
 
-Projeto criado pela [DIO - Digital Innovation One](https://github.com/digitalinnovationone) e desenvolvido por [Vinicius&nbsp;Macedo](https://github.com/Macedovin).
+Project created by [Camila Cavalcanti](https://github.com/cami-la), for [DIO - Digital Innovation One](https://github.com/digitalinnovationone) and developed by [Vinicius&nbsp;Macedo](https://github.com/Macedovin).
 
 <a href="mailto:macedo.vp@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
 <a href="https://www.linkedin.com/in/vinicius-macedop/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;

@@ -100,9 +100,9 @@ public class SacolaSerivceImpl implements ISacolaService {
         }
 
         // Utilizando Stream API
-//        double valorTotalSacola = valorDosItens.stream()
-//            .mapToDouble(valorTotalDeCadaItem -> valorTotalDeCadaItem)
-//            .sum();
+        // double valorTotalSacola = valorDosItens.stream()
+        //   .mapToDouble(valorTotalDeCadaItem -> valorTotalDeCadaItem)
+        //   .sum();
 
         sacola.setValorTotal(valorTotalSacola);
 
