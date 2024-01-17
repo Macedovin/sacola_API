@@ -27,6 +27,7 @@
 
 ## About
 <br/>
+
 Project developed as a FREE starter for a DIO's Bootcamp wich I didn't do.
 
 A Backend API made using **Java**, **Spring Boot**, **Gradle**, **Hibernate - Jakarta Persistense (JPA)**, **H2 in-memory Database**, and documented using **Swagger UI**, that will allow you to add itens, see and close the bag preparing for order.
@@ -37,13 +38,12 @@ A Backend API made using **Java**, **Spring Boot**, **Gradle**, **Hibernate - Ja
 
 ## Learnings
 <br/>
-<br/>
 
-  - Basic understanding of:
-    - Operational Systems;
-    - Java programming language;
-    - IntelliJ IDEA Community;
-    - Git and GitHub;
+- Basic understanding of:
+  - Operational Systems;
+  - Java programming language;
+  - IntelliJ IDEA Community;
+  - Git and GitHub;
   
   <details open>
   <summary>Object Oriented Programming -> OOP:</summary>
@@ -77,9 +77,9 @@ A Backend API made using **Java**, **Spring Boot**, **Gradle**, **Hibernate - Ja
   <details open>
   <summary>Entity-relantionship Diagram:</summary>
 
-  <h1 align="center">
+  <h2 align="center">
     <img src="./README-assets/application_entity-relationship_diagram.png" width="850" alt="Application entity-relationship diagram">
-  </h1>
+  </h2>
 
   </details>
 
